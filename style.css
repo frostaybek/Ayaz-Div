@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: poppins;
+    color: white;
+    user-select: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right, #780206, #061161);
+}
+
+::selection{
+    color: white;
+    background-color: rebeccapurple;
+}
+
+div{
+    border: #a71c21 2px solid;
+    border-radius: 6px;
+    padding: 15px;
+    zoom: 120%;
+}
+
+img{
+    height: 140px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    -webkit-user-drag: none;
+    margin-bottom: 10px;
+}
+
+h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 42px;
+    user-select: text;
+}
+
+mark{
+    background-color: #780206;
+}
+
+.first{
+    text-align: center;
+    margin-top: 6px;
+    user-select: text;
+}
+
+.second{
+    margin-top: 12px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 8px;
+    user-select: text;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(255, 0, 98);
+    transition: all ease 0.4s;
+    margin-left: 15px;
+    border-radius: 6px;
+    user-select: none;
+}
+
+.link:hover{
+    color: rgb(156, 33, 57);
+}
+
+.link:active{
+    background-color: crimson;
+}
